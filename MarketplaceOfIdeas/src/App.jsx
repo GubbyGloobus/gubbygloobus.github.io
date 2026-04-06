@@ -2,16 +2,24 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import Home from './pages/Home'
+import BigIdea from './pages/BigIdea'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
+import NavBar from './components/navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>Welcome to the Marketplace</h1>
-    <p>People have ideas. Yours are next, and can be turned into Money. Money can become a purchase, and that means you're doing it right.
-    </p>
+   <BrowserRouter>
+   <NavBar/>
+    <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/BigIdea" element={<BigIdea />}/>
+      </Routes>
+   </BrowserRouter>
     </>  
   )
 }
