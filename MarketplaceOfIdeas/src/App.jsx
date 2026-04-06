@@ -13,13 +13,13 @@ function App() {
 
   return (
     <>
-   <BrowserRouter>
-   <NavBar/>
-    <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/BigIdea" element={<BigIdea />}/>
-      </Routes>
-   </BrowserRouter>
+      <BrowserRouter>
+        <NavBar/>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/BigIdea" element={<BigIdea />}/>
+        </Routes>
+      </BrowserRouter>
     </>  
   )
 }
