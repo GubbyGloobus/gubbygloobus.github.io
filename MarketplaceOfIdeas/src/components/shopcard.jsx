@@ -1,4 +1,5 @@
 import kgb from '../assets/images/kgbimpressed.jpeg'
+
 export default function ShopCard() {
 
     return(
