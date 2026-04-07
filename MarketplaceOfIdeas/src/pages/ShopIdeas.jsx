@@ -8,7 +8,7 @@ export default function ShopIdeas() {
         <div className="mx-5">
             <h1>Browse our Idealist Wares.</h1>
             <p>shopshopshopshopshopshopshopshopshopshopshopshopshopshosphopshopshosphshopshosphpsh</p>
-            <div className="grid grid-cols-3 justify-center gap-x-30 gap-y-5">
+            <div className="grid grid-cols-3 justify-center gap-x-20 gap-y-5">
                 <ShopCard/>
                 <ShopCard/>
                 <ShopCard/>
