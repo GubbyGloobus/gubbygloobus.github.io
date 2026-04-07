@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Home from './pages/Home'
 import BigIdea from './pages/BigIdea'
+import ShopIdeas from './pages/ShopIdeas'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
 import NavBar from './components/navbar'
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/BigIdea" element={<BigIdea />}/>
+          <Route path="/ShopIdeas" element={<ShopIdeas />}/>
         </Routes>
       </BrowserRouter>
     </>  
