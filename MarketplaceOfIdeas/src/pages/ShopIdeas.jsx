@@ -6,18 +6,24 @@ export default function ShopIdeas() {
     const ideas = [
         {
             //STARTS AT ITEM #0//
-            title:'john smith',
+            title:'Steal USA\'s Secret File',
             image: 'src/assets/images/kgbimpressed.jpeg',
-            desc: 'BITCH!!!!!!!!!!!',
-            price: 'a mere penny :)'
+            desc: 'you can get rich by selling secret from file',
+            price: '$400.93'
         },
 
         {
-            title: 'john the smith',
+            title: 'Conjure a Digital Homunculus',
+            image: 'src/assets/images/homunculus.jpg',
+            desc: 'create a digital homunculus to do your every bidding and sew seeds of anger on online forums',
+            price: '$8,0000',
+
+        },
+
+        {title: 'john the smith',
             image: 'src/assets/images/homunculus.jpg',
             desc: 'breden wont SHUT UP!!!!!!!!!!!!!!',
             price: 'priceless.',
-
         },
 
         {title: 'john the smith',
@@ -30,7 +36,7 @@ export default function ShopIdeas() {
     return (
         <div className="mx-5">
             <h1>Browse our Idealist Wares.</h1>
-            <p>shopshopshopshopshopshopshopshopshopshopshopshopshopshosphopshopshosphshopshosphpsh</p>
+            <p>shopshopshopshopshopshopshopshop  we think one new idea every wednesday.  hopshosphopshopshosphshopshosphpshop</p>
             <div className="grid grid-cols-3 justify-center gap-x-30 gap-y-5">
                 {
                     ideas.map((idea) => (
