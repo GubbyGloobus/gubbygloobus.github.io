@@ -49,6 +49,22 @@
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
 
+  @keyframes shake {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-15px) translateY(-5px);
+  }
+  75% {
+    transform: translateX(15px) translateY(5px);
+  }
+}
+
+.shake {
+  animation: shake 0.3s infinite;
+}
+
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
