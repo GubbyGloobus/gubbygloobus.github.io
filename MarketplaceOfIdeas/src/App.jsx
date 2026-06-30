@@ -8,6 +8,9 @@ import ShopIdeas from './pages/ShopIdeas'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
 import NavBar from './components/navbar'
+import SupportFAQ from './pages/SupportFAQ'
+import Support from './pages/Support'
+import FAQ from './pages/FAQ'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +23,9 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/BigIdea" element={<BigIdea />}/>
           <Route path="/ShopIdeas" element={<ShopIdeas />}/>
+          <Route path="/SupportFAQ" element={<SupportFAQ />}/>
+          <Route path="/Support" element ={<Support />}/>
+          <Route path="/FAQ" element ={<FAQ />}/>
         </Routes>
       </BrowserRouter>
     </>  

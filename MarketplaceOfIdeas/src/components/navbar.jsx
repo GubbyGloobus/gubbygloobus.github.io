@@ -8,6 +8,7 @@ export default function NavBar() {
             <Link className={linkclasses} to="/">ABSCOND!!</Link>
             <Link className={linkclasses} to="/BigIdea">Bless the Big Idea</Link>
             <Link className={linkclasses} to="/ShopIdeas">Shop Ideas</Link>
+            <Link className={linkclasses} to="/SupportFAQ">Support/FAQ</Link>
         </div>
     )
 }
