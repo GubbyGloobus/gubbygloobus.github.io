@@ -3,6 +3,7 @@ import ShopCard from "../components/shopcard";
 import { Component } from "react";
 
 export default function ShopIdeas() {
+    const linkclasses = "mx-4 p-8 text-2xl border rounded-md bg-yellow-600 hover:bg-yellow-700 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
     const ideas = [
         {
             //STARTS AT ITEM #0//
@@ -48,7 +49,7 @@ export default function ShopIdeas() {
     return (
         <div className="mx-5">
             <h1>Browse our Idealist Wares.</h1>
-            <p>shopshopshop  we think one new idea every wednesday. buy the idea, and make it happen yourself. hopshosphopshop<br />
+            <p className='text-container'>shopshopshop  we think one new idea every wednesday. buy the idea, and make it happen yourself. hopshosphopshop<br />
                <i>CLAIMER: if you use an idea without buying it first i will sue you big time</i> 
             </p>
             <div className="grid grid-cols-3 justify-center gap-x-30 gap-y-5">
@@ -57,6 +58,9 @@ export default function ShopIdeas() {
                         <ShopCard idea={idea}/>
                     ))
                 }
+            </div>
+            <div className="flex justify-center mt-10 mb-10">
+                <Link className={linkclasses} to="./pages/Checkout.jsx">PURCHASE!!!!!</Link>
             </div>
         </div>
     )

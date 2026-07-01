@@ -16,10 +16,10 @@ export default function Home() {
    ]
    
    return (
-        <div className="mx-10">
-            <h1>Welcome to the Marketplace</h1>
-            <p>People have ideas. Yours are next, and can be turned into Money. Money can become a purchase, and that means you're doing it right. Start thinking, stack bands, change the world.</p>
-            <div className="grid grid-cols-2 justify-center gap-x-30 my-3">
+        <div>
+            <h1>Welcome to the Marketplace.</h1>
+            <p className="text-container">People have ideas. Yours are next, and can be turned into Money. Money can become a purchase, and that means you're doing it right. Start thinking, stack bands, change the world.</p>
+            <div className="grid grid-cols-2 justify-center gap-x-20 mx-4 my-2">
             {
                 textbox.map((text) => (
                 <InfoCard text={text}/>                 
