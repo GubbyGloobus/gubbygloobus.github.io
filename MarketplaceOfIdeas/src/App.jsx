@@ -11,6 +11,8 @@ import NavBar from './components/navbar'
 import SupportFAQ from './pages/SupportFAQ'
 import Support from './pages/Support'
 import FAQ from './pages/FAQ'
+import Checkout from './pages/Checkout'
+import IDEAINJECTION from './pages/IDEAINJECTION'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +28,8 @@ function App() {
           <Route path="/SupportFAQ" element={<SupportFAQ />}/>
           <Route path="/Support" element ={<Support />}/>
           <Route path="/FAQ" element ={<FAQ />}/>
+          <Route path="/Checkout" element={<Checkout />}/>
+          <Route path="/IDEAINJECTION" element={<IDEAINJECTION />}/>
         </Routes>
       </BrowserRouter>
     </>  

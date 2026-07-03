@@ -60,7 +60,7 @@ export default function ShopIdeas() {
                 }
             </div>
             <div className="flex justify-center mt-10 mb-10">
-                <Link className={linkclasses} to="./pages/Checkout.jsx">PURCHASE!!!!!</Link>
+                <Link className={linkclasses} to="/Checkout">PURCHASE!!!!!</Link>
             </div>
         </div>
     )
